@@ -1,6 +1,6 @@
 # WebSerivceContacts
-Semplice web service per la gestione dei contatti
-
+Semplice web service per la gestione dei contatti.  
+Le due versioni sono chiamate in base all'indice di ricerca che viene utilizzato.
 
 # Indice  
 - [Web Service JSON Id](#Web-service-JSON-Id)
