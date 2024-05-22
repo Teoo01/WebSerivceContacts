@@ -3,21 +3,18 @@ Semplice web service per la gestione dei contatti
 
 
 # Indice  
-- [Web Service JSON](#Web-service-JSON)
-  - [ID](##ID-Json)
-  - [Email](##email-Json)
-- [Web Service CSV](#Web-service-CSV)
-  - [ID](##ID)
-  - [Email](##email)
+- [Web Service JSON Id](#Web-service-JSON-Id)
+- [Web Service JSON Email](#Web-service-JSON-Email)
+- [Web Service CSV Id](#Web-service-CSV-Id)
+- [Web Service CSV Email](#Web-service-CSV-Email)
 
 
-# Web Service JSON
-## ID Json
+# Web Service JSON Id
 Linguaggio: Java  
 Tipo: Maven  
 Versiona Java: 17  
 
-### Comandi
+## Comandi
 Creare un contatto:  
 ```curl -X POST http://localhost:8080/api/contacts -H "Content-Type: application/json" -d '{"firstName": "John", "lastName": "Doe", "email": "john.doe@example.com", "phoneNumber": "1234567890"}'```
 
@@ -31,12 +28,12 @@ Cancellare un contatto:
 ```curl -X DELETE http://localhost:8080/api/contacts/1```
 
 
-## Email Json
+# Web Service JSON Email
 Linguaggio: Java  
 Tipo: Maven  
 Versiona Java: 17  
 
-### Comandi
+## Comandi
 Creare un contatto:  
 ```curl -X POST http://localhost:8080/api/contacts -H "Content-Type: application/json" -d '{"firstName": "John", "lastName": "Doe", "email": "john.doe@example.com", "phoneNumber": "1234567890"}'```
 
@@ -49,8 +46,7 @@ Aggiornare un contatto:
 Cancellare un contatto:  
 ```curl -X DELETE http://localhost:8080/api/contacts/john.doe@example.com```
 
-# Web Service CSV
-## ID
-### Comandi
-## Email
-### Comandi
+# Web Service CSV Id
+## Comandi
+# Web Service CSV Email
+## Comandi
