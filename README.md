@@ -12,6 +12,7 @@ Le due versioni sono chiamate in base all'indice di ricerca che viene utilizzato
 
 # Web Service JSON Id
 Linguaggio: Java  
+Framework: SpringBoot 3.2.5  
 Tipo: Maven  
 Versiona Java: 17  
 
@@ -39,6 +40,7 @@ curl -X DELETE http://localhost:8080/api/contacts/1
 
 # Web Service JSON Email
 Linguaggio: Java  
+Framework: SpringBoot 3.2.5  
 Tipo: Maven  
 Versiona Java: 17  
 
