@@ -16,18 +16,24 @@ Versiona Java: 17
 
 ## Comandi
 Creare un contatto:  
-```
+```sh
 curl -X POST http://localhost:8080/api/contacts -H "Content-Type: application/json" -d '{"firstName": "John", "lastName": "Doe", "email": "john.doe@example.com", "phoneNumber": "1234567890"}'
 ```
 
 Leggere tutti i contatti:  
-```curl http://localhost:8080/api/contacts```
+```sh
+curl http://localhost:8080/api/contacts
+```
 
 Aggiornare un contatto:  
-```curl -X PUT http://localhost:8080/api/contacts/1 -H "Content-Type: application/json" -d '{"firstName": "John", "lastName": "Doe", "email": "john.doe@example.com", "phoneNumber": "0987654321"}'```
+```sh
+curl -X PUT http://localhost:8080/api/contacts/1 -H "Content-Type: application/json" -d '{"firstName": "John", "lastName": "Doe", "email": "john.doe@example.com", "phoneNumber": "0987654321"}'
+```
 
 Cancellare un contatto:  
-```curl -X DELETE http://localhost:8080/api/contacts/1```
+```sh
+curl -X DELETE http://localhost:8080/api/contacts/1
+```
 
 
 # Web Service JSON Email
@@ -37,16 +43,24 @@ Versiona Java: 17
 
 ## Comandi
 Creare un contatto:  
-```curl -X POST http://localhost:8080/api/contacts -H "Content-Type: application/json" -d '{"firstName": "John", "lastName": "Doe", "email": "john.doe@example.com", "phoneNumber": "1234567890"}'```
+```sh
+curl -X POST http://localhost:8080/api/contacts -H "Content-Type: application/json" -d '{"firstName": "John", "lastName": "Doe", "email": "john.doe@example.com", "phoneNumber": "1234567890"}'
+```
 
 Leggere tutti i contatti:  
-```curl http://localhost:8080/api/contacts```
+```sh
+curl http://localhost:8080/api/contacts
+```
 
 Aggiornare un contatto:  
-```curl -X PUT http://localhost:8080/api/contacts/john.doe@example.com -H "Content-Type: application/json" -d '{"firstName": "John", "lastName": "Doe", "email": "john.doe@example.com", "phoneNumber": "0987654321"}'```
+```sh
+curl -X PUT http://localhost:8080/api/contacts/john.doe@example.com -H "Content-Type: application/json" -d '{"firstName": "John", "lastName": "Doe", "email": "john.doe@example.com", "phoneNumber": "0987654321"}'
+```
 
 Cancellare un contatto:  
-```curl -X DELETE http://localhost:8080/api/contacts/john.doe@example.com```
+```sh
+curl -X DELETE http://localhost:8080/api/contacts/john.doe@example.com
+```
 
 # Web Service CSV Id
 ## Comandi
