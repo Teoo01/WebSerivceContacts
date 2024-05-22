@@ -5,7 +5,7 @@ Le due versioni sono chiamate in base all'indice di ricerca che viene utilizzato
 # Indice  
 - [Web Service JSON Id](#Web-service-JSON-Id)
 - [Web Service JSON Email](#Web-service-JSON-Email)
-  
+
 - [Web Service CSV Id](#Web-service-CSV-Id)
 - [Web Service CSV Email](#Web-service-CSV-Email)
 
