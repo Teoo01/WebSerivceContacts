@@ -26,7 +26,7 @@ curl http://localhost:8080/api/contacts
 ```
 
 Aggiornare un contatto:  
-```
+```sh
 curl -X PUT http://localhost:8080/api/contacts/1 -H "Content-Type: application/json" -d '{"firstName": "John", "lastName": "Doe", "email": "john.doe@example.com", "phoneNumber": "0987654321"}'
 ```
 
