@@ -4,15 +4,15 @@ Semplice web service per la gestione dei contatti
 
 # Indice  
 - [Web Service JSON](#Web-service-JSON)
-  - [ID](##ID)
-  - [Email](##email)
+  - [ID](##ID-Json)
+  - [Email](##email-Json)
 - [Web Service CSV](#Web-service-CSV)
   - [ID](##ID)
   - [Email](##email)
 
 
 # Web Service JSON
-## ID
+## ID Json
 Linguaggio: Java  
 Tipo: Maven  
 Versiona Java: 17  
@@ -31,7 +31,7 @@ Cancellare un contatto:
 ```curl -X DELETE http://localhost:8080/api/contacts/1```
 
 
-## Email
+## Email Json
 Linguaggio: Java  
 Tipo: Maven  
 Versiona Java: 17  
